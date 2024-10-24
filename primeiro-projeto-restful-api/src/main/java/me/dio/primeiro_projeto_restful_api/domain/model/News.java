@@ -1,7 +1,8 @@
 package me.dio.primeiro_projeto_restful_api.domain.model;
 
-public class News {
-    
-    private String icon;
-    private String description;
+import jakarta.persistence.Entity;
+
+@Entity(name =  "tb_news")
+public class News extends  BaseItem{
+
 }
